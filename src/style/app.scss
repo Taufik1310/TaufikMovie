@@ -1,0 +1,136 @@
+@import "~bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+.text-danger {
+  color: #950101 !important;
+}
+.btn-danger,
+.bg-danger {
+  background: #950101 !important;
+}
+.border-danger {
+  border-color: #950101 !important;
+}
+.btn-outline-danger {
+  border-color: #950101 !important;
+}
+
+.active {
+  opacity: 1 !important;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-10 {
+  font-size: 10px;
+}
+.top-70 {
+  top: 70px !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 14px;
+}
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #950101;
+}
+
+#inputSearchMovie::placeholder {
+  color: #fff !important;
+  opacity: 0.5;
+}
+
+.list-group-item {
+  transition: all 0.3s;
+}
+.list-group-item:hover {
+  cursor: pointer;
+  opacity: 1 !important;
+}
+
+aside {
+  width: 22% !important;
+}
+article {
+  width: 77% !important;
+  height: 90vh !important;
+  overflow-x: hidden !important;
+}
+.cardMovie {
+  width: 180px !important;
+}
+
+@media (max-width: 375px) {
+  .card-movie {
+    width: 100% !important;
+  }
+  #detailMoviePoster {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  app-bar {
+    width: 100% !important;
+  }
+  #formSearchMovie {
+    width: 100% !important;
+  }
+  #inputSearchMovie {
+    width: 90% !important;
+  }
+  aside {
+    width: 60% !important;
+    font-size: 14px !important;
+  }
+  article {
+    width: 100% !important;
+    height: 84vh !important;
+  }
+  #listMovieTable {
+    font-size: 8px !important;
+  }
+  #listMovieTableHead {
+    top: 60px !important;
+  }
+  #listMoviePoster {
+    width: 20px !important;
+  }
+  #detailMovieDirector,
+  #detailMovieDirector + td,
+  #detailMovieWriter,
+  #detailMovieWriter + td,
+  #detailMovieStar,
+  #detailMovieStar + td {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  aside {
+    font-size: 12px !important;
+  }
+  #listMovieTable {
+    font-size: 10px !important;
+  }
+  #listMovieTableHead {
+    top: 60px !important;
+  }
+  #detailMoviePoster {
+    margin: auto !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  ::-webkit-scrollbar {
+    display: block;
+  }
+}
